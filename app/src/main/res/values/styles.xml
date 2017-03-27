@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="ProgressView">
+        <attr name="mArc" format="dimension"></attr>
+        <attr name="mBackGroundColor" format="color"></attr>
+        <attr name="mProgressSize" format="dimension"></attr>
+
+    </declare-styleable>
 </resources>

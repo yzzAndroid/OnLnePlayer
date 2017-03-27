@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yzz.android.onlneplayer">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,9 +19,10 @@
         </activity>
         <activity android:name=".ui.PlayerActivity">
             <intent-filter>
-                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.DownLoadActivity"></activity>
     </application>
 
 </manifest>
